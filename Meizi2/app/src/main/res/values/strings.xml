@@ -1,0 +1,24 @@
+<resources>
+    <string name="app_name">Meizi</string>
+    <!--XML页面的string-->
+    <!--bind_chat-->
+    <string name="bind_top_back_textview">返回</string>
+    <string name="bind_top_more_textview">我的userID</string>
+    <string name="bind_edittext">指定对方ID</string>
+    <string name="bind_button">绑定</string>
+    <string name="bind_textview">userID</string>
+    <!--bottom-->
+    <string name="buttom_input_edittext">input here</string>
+    <!--bottom_more-->
+    <string name="buttom_more_pic_textview">发图</string>
+    <!--bregister_acount-->
+    <string name="register_top_back_textview">返回</string>
+    <string name="register_Textview_name">name</string>
+    <string name="register_editText_name">Name</string>
+    <string name="register_Textview_userid">userID</string>
+    <string name="register_editText_userid">UserID</string>
+    <string name="register_button">注册</string>
+    <!--java页面的string-->
+    <!--bind_chat-->
+    <string name="dd">信息已发出去</string>
+</resources>

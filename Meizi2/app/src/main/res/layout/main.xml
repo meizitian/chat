@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_marginTop="10dp"
+        android:layout_weight="7.5"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <ListView
+            android:transcriptMode="normal"
+            android:id="@+id/main_listview"
+            android:divider="@null"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+        </ListView>
+    </LinearLayout>
+<!-->
+    <LinearLayout
+        android:layout_gravity="bottom"
+        android:gravity="bottom"
+        android:layout_weight="1"
+        android:layout_width="match_parent"
+        android:layout_height="0dp">
+        <EditText
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="5dp"
+            android:hint="input here"
+            android:layout_weight="7"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/buttom_input_edittext" />
+        <Button
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:background="@drawable/send_0"
+            android:id="@+id/buttom_send_button"
+            android:layout_weight="0.7"
+            android:layout_width="0dp"
+            android:layout_height="30dp" />
+    </LinearLayout>
+</!-->
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <include layout="@layout/bottom" />
+        <include layout="@layout/bottom_more"
+            android:id="@+id/buttom_more_ll"
+            android:visibility="gone"/>
+    </LinearLayout>
+</LinearLayout>
